@@ -259,6 +259,9 @@ if (device.width == 1440 && device.height == 3120) {
 }else if (device.width == 1080 && device.height == 2280) {
     var clickx_pos=[396,666,938,1216,1484,1756,2025];
     var clicky_pos=[987,876,766];
+}else if (device.width == 1080 && device.height == 2160) {
+    var clickx_pos=[396,666,938,1216,1484,1756,2025];
+    var clicky_pos=[987,876,766];
 }else if (device.width == 1080 && device.height == 2400) {
     var clickx_pos=[443,727,938,1004,1274,1546,1815,2088];
     var clicky_pos=[987,876,766];
