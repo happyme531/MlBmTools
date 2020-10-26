@@ -1,0 +1,16 @@
+{
+  "assets": [],
+  "build": {
+    "build_id": "B2F60220-14",
+    "build_number": 14,
+    "build_time": 1582374879140
+  },
+  "useFeatures": [],
+  "icon": "res/logo.png",
+  "main": "main.js",
+  "name": "天刀音乐盒",
+  "packageName": "dev.happyme531.mlbmmidiplayer",
+  "scripts": {},
+  "versionCode": 10,
+  "versionName": "0.1.0"
+}
