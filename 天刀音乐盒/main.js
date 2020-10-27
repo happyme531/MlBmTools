@@ -263,7 +263,10 @@ if (device.width == 1440 && device.height == 3120) {
     var clickx_pos=[396,666,938,1216,1484,1756,2025];
     var clicky_pos=[987,876,766];
 }else if (device.width == 1080 && device.height == 2400) {
-    var clickx_pos=[443,727,938,1004,1274,1546,1815,2088];
+    var clickx_pos=[443,727,1004,1274,1546,1815,2088];
+    var clicky_pos=[987,876,766];
+}else if (device.width == 1080 && device.height == 1920) {
+    var clickx_pos=[215,488,757,1031,1300,1573,1847];
     var clicky_pos=[987,876,766];
 } else {
     toast("不支持此分辨率，尝试兼容设置...");
