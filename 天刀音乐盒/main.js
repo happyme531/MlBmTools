@@ -253,6 +253,9 @@ if (device.width == 1440 && device.height == 3120) {
 } else if (device.width == 1080 && device.height == 2310) {
     var clickx_pos = [550, 790, 1027, 1266, 1505, 1744, 1980];
     var clicky_pos = [955, 818, 680];
+} else if (device.width == 1080 && device.height == 2376) {
+    var clickx_pos = [550, 790, 1027, 1266, 1505, 1744, 1980];
+    var clicky_pos = [955, 818, 680];
 } else if (device.width == 1080 && device.height == 2340) {
     var clickx_pos = [550, 790, 1027, 1266, 1505, 1744, 1980];
     var clicky_pos = [955, 818, 680];
