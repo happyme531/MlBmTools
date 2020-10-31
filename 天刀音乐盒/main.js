@@ -262,6 +262,12 @@ if (device.width == 1440 && device.height == 3120) {
 }else if (device.width == 1080 && device.height == 2280) {
     var clickx_pos=[396,666,938,1216,1484,1756,2025];
     var clicky_pos=[987,876,766];
+}else if (device.width == 1080 && device.height == 2244) {
+    var clickx_pos=[396,666,938,1216,1484,1756,2025];
+    var clicky_pos=[987,876,766];
+}else if (device.width == 1080 && device.height == 2230) {
+    var clickx_pos=[396,666,938,1216,1484,1756,2025];
+    var clicky_pos=[987,876,766];
 }else if (device.width == 1080 && device.height == 2160) {
     var clickx_pos=[396,666,938,1216,1484,1756,2025];
     var clicky_pos=[987,876,766];
@@ -271,6 +277,9 @@ if (device.width == 1440 && device.height == 3120) {
 }else if (device.width == 1080 && device.height == 1920) {
     var clickx_pos=[215,488,757,1031,1300,1573,1847];
     var clicky_pos=[987,876,766];
+}else if (device.width == 720 && device.height == 1465) {
+    var clickx_pos=[252,426,602,775,950,1125,1301];
+    var clicky_pos=[510,584,661];
 } else {
     toast("不支持此分辨率，尝试兼容设置...");
     console.warn("不支持此分辨率，尝试兼容设置...");
