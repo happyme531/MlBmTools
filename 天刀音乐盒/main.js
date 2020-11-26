@@ -256,9 +256,15 @@ if (device.width == 1440 && device.height == 3120) {
 } else if (device.width == 1080 && device.height == 2376) {
     var clickx_pos = [550, 790, 1027, 1266, 1505, 1744, 1980];
     var clicky_pos = [955, 818, 680];
+//奇怪的问题出现了---2340x1080分辨率似乎有两种不同的坐标？
+//如果第一组坐标不适合你，你需要把后1~3行代码开头加两个斜杠(//),并去掉后4~6行开头的两个斜杠
 } else if (device.width == 1080 && device.height == 2340) {
-    var clickx_pos = [550, 790, 1027, 1266, 1505, 1744, 1980];
-    var clicky_pos = [955, 818, 680];
+    toast("如果不能正常弹奏，请打开脚本查看260行附近");
+    var clickx_pos = [421, 696, 968, 1243, 1512, 1787, 2055];
+    var clicky_pos = [990, 879, 766];
+//} else if (device.width == 1080 && device.height == 2340) {
+//    var clickx_pos = [550, 790, 1027, 1266, 1505, 1744, 1980];
+//    var clicky_pos = [955, 818, 680];
 }else if (device.width == 1080 && device.height == 2280) {
     var clickx_pos=[396,666,938,1216,1484,1756,2025];
     var clicky_pos=[987,876,766];
